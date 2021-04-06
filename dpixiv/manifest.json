@@ -17,8 +17,8 @@
   ],
 
   "content_scripts": [{
-    "matches": ["*://accounts.pixiv.net/*"],
-    "js": ["scripts/addButton.js"]
+    "matches": ["*://*.pixiv.net/*"],
+    "js": ["scripts/addScript.js"]
   }]
 
 }
